@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">DapmApp</string>
+    <string name="app_name">DAPM Application</string>
+
+    <!--to toggle the open close button
+        of the navigation drawer-->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <!-- Strings for items in activity_main_drawer.xml -->
+    <string name="ic_title_home">Home</string>
+    <string name="ic_title_world">World</string>
+    <string name="ic_title_science">Science</string>
+    <string name="ic_title_sport">Sport</string>
+    <string name="ic_title_fashion">Fashion</string>
+    <string name="ic_title_business">Business</string>
+
+    <string name="action_settings">Settings</string>
+
 </resources>
