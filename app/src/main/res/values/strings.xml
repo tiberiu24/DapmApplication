@@ -14,5 +14,35 @@
     <string name="ic_title_fashion">Fashion</string>
     <string name="ic_title_business">Business</string>
 
+    <string name="action_settings">Settings</string>
+
+    <!-- Variabile pentru divcontent (atentie la ordinea scrierii <=> alfabetic) -->
+    <string-array name="articles">
+        <item>Test1</item>
+        <item>Test2</item>
+        <item>Test3</item>
+        <item>Test4</item>
+        <item>Test5</item>
+        <item>Test6</item>
+        <item>Test7</item>
+        <item>Test8</item>
+        <item>Test9</item>
+        <item>Test10</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Acesta este descrierea1</item>
+        <item>Acesta este descrierea2</item>
+        <item>Acesta este descrierea3</item>
+        <item>Acesta este descrierea4</item>
+        <item>Acesta este descrierea5</item>
+        <item>Acesta este descrierea6</item>
+        <item>Acesta este descrierea7</item>
+        <item>Acesta este descrierea8</item>
+        <item>Acesta este descrierea9</item>
+        <item>Acesta este descrierea10</item>
+    </string-array>
+
     <string name="ic_title_search">Search</string>
+
 </resources>

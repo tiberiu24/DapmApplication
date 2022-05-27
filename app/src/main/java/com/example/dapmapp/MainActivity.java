@@ -6,11 +6,18 @@ import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import android.os.Bundle;
+import android.view.LayoutInflater;
+
 import android.app.SearchManager;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
+
 import android.view.MenuItem;
 import android.os.Bundle;
 import android.widget.SearchView;
@@ -19,6 +26,14 @@ public class MainActivity extends AppCompatActivity {
 
     public DrawerLayout drawerLayout;
     public ActionBarDrawerToggle actionBarDrawerToggle;
+
+    //divcontent
+    RecyclerView recyclerView;
+
+    String[] s1, s2;
+    int[] images = {R.drawable.imgtest, R.drawable.imgtest, R.drawable.imgtest,
+            R.drawable.imgtest, R.drawable.imgtest, R.drawable.imgtest,
+            R.drawable.imgtest, R.drawable.imgtest, R.drawable.imgtest};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +52,16 @@ public class MainActivity extends AppCompatActivity {
 
         // to make the Navigation drawer icon always appear on the action bar
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        //divcontent
+        recyclerView = findViewById(R.id.recyclerView);
+
+        s1 = getResources().getStringArray(R.array.articles);
+        s2 = getResources().getStringArray(R.array.description);
+
+        DivAdapter divAdapter = new DivAdapter(this, s1, s2, images);
+        recyclerView.setAdapter(divAdapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
 
     // override the onOptionsItemSelected()
