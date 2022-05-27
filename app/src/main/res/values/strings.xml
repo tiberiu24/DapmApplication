@@ -43,4 +43,6 @@
         <item>Acesta este descrierea10</item>
     </string-array>
 
+    <string name="ic_title_search">Search</string>
+
 </resources>
