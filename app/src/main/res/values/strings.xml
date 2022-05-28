@@ -1,12 +1,11 @@
 <resources>
     <string name="app_name">DAPM Application</string>
 
-    <!--to toggle the open close button
-        of the navigation drawer-->
+    <!-- Deschidere si inchidere meniu-->
     <string name="nav_open">Open</string>
     <string name="nav_close">Close</string>
 
-    <!-- Strings for items in activity_main_drawer.xml -->
+    <!-- Obiecte pentru main drower -->
     <string name="ic_title_home">Home</string>
     <string name="ic_title_world">World</string>
     <string name="ic_title_science">Science</string>
@@ -14,35 +13,34 @@
     <string name="ic_title_fashion">Fashion</string>
     <string name="ic_title_business">Business</string>
 
-    <string name="action_settings">Settings</string>
 
     <!-- Variabile pentru divcontent (atentie la ordinea scrierii <=> alfabetic) -->
     <string-array name="articles">
-        <item>Test1</item>
-        <item>Test2</item>
-        <item>Test3</item>
-        <item>Test4</item>
-        <item>Test5</item>
-        <item>Test6</item>
-        <item>Test7</item>
-        <item>Test8</item>
-        <item>Test9</item>
-        <item>Test10</item>
+        <item>Centrafrique : Bangui, improbable capitale du bitcoin</item>
+        <item>Pacte de stabilité : le salutaire pragmatisme des Européens</item>
+        <item>Starliner, la capsule spatiale de Boeing, passe le test non sans accrocs</item>
+        <item>En Bretagne, les corbeaux de la discorde</item>
+        <item>Liverpool et le Real Madrid, la loi du plus fort</item>
+        <item>Roland-Garros Nadal - Djokovic se jouera-t-il en night session</item>
+        <item>La Caserne présente son nouveau format événementiel</item>
+        <item>Recyclage: un nouveau procédé pour le polyester</item>
+        <item>La France au 6e rang mondial des pays les plus attractifs</item>
+        <item>La diversification à marche forcée du secteur pousse à la consolidation</item>
     </string-array>
+    <!-- Descriere pentru stiri-->
 
     <string-array name="description">
-        <item>Acesta este descrierea1</item>
-        <item>Acesta este descrierea2</item>
-        <item>Acesta este descrierea3</item>
-        <item>Acesta este descrierea4</item>
-        <item>Acesta este descrierea5</item>
-        <item>Acesta este descrierea6</item>
-        <item>Acesta este descrierea7</item>
-        <item>Acesta este descrierea8</item>
-        <item>Acesta este descrierea9</item>
-        <item>Acesta este descrierea10</item>
+        <item>Après San Salvador, Bangui, capitale du bitcoin !</item>
+        <item>Les règles de discipline budgétaire auxquelles sont soumis.</item>
+        <item>La capsule spatiale de Boeing, a atterri mercredi 25 mai.</item>
+        <item>Pour eux, cette espèce a proliféré depuis sa protection.</item>
+        <item>Domination physique, psychologique, tactique.</item>
+        <item>Mais France TV va peser de tout son poids pour ce quart royal.</item>
+        <item>La Caserne inaugure un nouveau format evenementiel "Aqueducs".</item>
+        <item>Composant 52 % de la production mondiale de fibre.</item>
+        <item>La France maintient sa 6e place des pays les plus attractifs en 2022.</item>
+        <item>Veut diversifier ses activités en mettant l’éditeur de logiciel.</item>
     </string-array>
 
-    <string name="ic_title_search">Search</string>
 
 </resources>

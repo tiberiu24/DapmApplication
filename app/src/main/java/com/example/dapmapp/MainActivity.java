@@ -30,10 +30,11 @@ public class MainActivity extends AppCompatActivity {
     //divcontent
     RecyclerView recyclerView;
 
+    //Pozele din stiri
     String[] s1, s2;
-    int[] images = {R.drawable.imgtest, R.drawable.imgtest, R.drawable.imgtest,
-            R.drawable.imgtest, R.drawable.imgtest, R.drawable.imgtest,
-            R.drawable.imgtest, R.drawable.imgtest, R.drawable.imgtest};
+    int[] images = {R.drawable.centrafrique, R.drawable.pacte_de_stabilite, R.drawable.starliner,
+            R.drawable.enbretagne, R.drawable.liverpool, R.drawable.djokovicnadal,
+            R.drawable.lacaserne, R.drawable.recyclage, R.drawable.lafrance, R.drawable.puces_electroniques};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,19 +78,5 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
         return super.onOptionsItemSelected(item);
-    }
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.main, menu);
-
-        // Associate searchable configuration with the SearchView
-        SearchManager searchManager =
-                (SearchManager) getSystemService(Context.SEARCH_SERVICE);
-/*        SearchView searchView =
-                (SearchView) menu.findItem(R.id.search).getActionView();
-        searchView.setSearchableInfo(
-                searchManager.getSearchableInfo(getComponentName()));*/
-
-        return true;
     }
 }
